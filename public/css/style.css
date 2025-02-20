@@ -1,0 +1,200 @@
+body{
+    background-color: pink;
+    font-family: "Plus Jakarta Sans", serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container
+{
+ flex: 1;
+}
+.airbnb-icon
+{
+    color: #fe424d;
+    margin-left: 3rem;
+}
+.navbar
+{
+    height: 5rem;
+    background-color: white;
+}
+.nav-link
+{
+    color:black !important;
+
+}
+.f-info
+{   background-color: rgb(170, 165, 165);
+     height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.f-info-sociels,.f-info-links,.f-info-brand
+{ width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.f-info-sociels i
+{   font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+.f-info-links a{
+    /* margin-left: 0.5rem; */
+    text-decoration: none;
+    color: #222222;
+
+}
+/* cards */
+.listing-card
+{  border: none !important;
+    margin-bottom: 2rem;
+    object-fit: cover !important;
+}
+.card-body
+{border-radius: 4rem !important;
+    padding: 0 !important;
+}
+.card-img-top
+{
+    height: 18rem !important;
+    border-radius: 1rem !important;
+}
+.card-text
+{
+    font-weight: 400 !important;
+}
+/* overlay */
+.card-img-overlay
+{
+    opacity: 0;
+}
+.card-img-overlay:hover
+{
+    opacity: 0.2;
+    background-color: white;
+
+}
+.listing-links
+{
+    text-decoration: none;
+    /* width: 300px; */
+}
+/* .list-contain
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} */
+@media(max-width:550px)
+{
+    .list-contain
+    {
+        width: 300px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+
+.add-btn
+{
+   background-color:#fe424d !important;
+   border: none !important;
+}
+.edit-btn
+{
+   background-color:#fe424d !important;
+   border: none !important;
+   color: white !important;
+}
+/* show page */
+.card-body-show
+{   display: flex !important;
+    margin-top: 1rem;
+}
+.del-btn
+{
+    margin-left: 3rem;
+    background-color: #222222 !important;
+    color: white !important;
+    border: none;
+}
+/* for icon nav */
+.search-btn
+{
+  background-color:  #fe424d;;
+  color: white;
+  border: none;
+  border-radius: 3rem;
+  padding: 0rem 1rem 0rem 1rem;
+}
+.search-btn i{
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+.navbar2
+{
+height: 6rem;
+background-color: white;
+position: sticky;
+top: 75px;
+z-index: 1;
+}
+.filters
+{
+display: flex;
+flex-wrap: wrap;
+margin-top: 2rem;
+margin-left: 2rem;
+}
+.filter
+{
+text-align: center;
+margin-left: 3rem;
+opacity: 0.6;
+}
+.filter:hover
+{
+opacity: 1;
+cursor: pointer;
+}
+.filter i{
+font-size: 22px;
+}
+#fil-text
+{
+font-size: 13px;
+}
+.togle-btn
+{
+border: 1px solid black;
+padding:1rem;
+border-radius:0.5rem;
+margin-left: 1rem;
+margin-top: -1rem;
+margin-bottom: 1rem;
+width: 250px !important;
+}
+@media(max-width:1028px)
+{
+.fly
+{
+display: none;
+}
+}
+@media(max-width:799px)
+{
+
+.search-inp
+{
+    display: none;
+}
+}
